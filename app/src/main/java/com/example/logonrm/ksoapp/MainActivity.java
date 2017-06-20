@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class CalcularAsync extends AsyncTask<Void, Void, Void>{
-        int v1 = Integer.parseInt(etValor1.getText().toString());
-        int v2 = Integer.parseInt(etValor2.getText().toString());
+        //int v1 = Integer.parseInt(etValor1.getText().toString());
+        //int v2 = Integer.parseInt(etValor2.getText().toString());
 
         @Override
         protected Void doInBackground(Void... params) {
